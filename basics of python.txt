@@ -1,0 +1,94 @@
+=======================================================================
+BASICS OF PYTHON 
+ print("Hello Abhishek") ##this print function is used to display console or on screen.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+data types  in python 
+
+age = 25 ### this is integer
+account_balance =51233654478963321.456987 #####this is float
+first_name = "Abhishek"## this is a string  when you define as string write with double or single cotes
+terms_accepeted = True ## This is a boolean.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+USER input
+
+mobile_number = input("enter the mobile number : ")
+print("Mobile Number:"+mobile_number)
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+string concation
+
+First_name = 'micro'
+Second_name = 'degree'
+print(Frist_name+Second_name)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+To acess individual character
+
+email = "microdegree"
+print(email[5])
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+to access a range of group of character
+
+email = "microdegree course"
+
+print(email[5:])
+o/p:degree course
+
+-----------------------------
+email = "microdegree course"
+
+print(email[5:11])
+o/p:degree
+======================================================================================
+first_name = "microdegree"
+printf(f"hello {first_name} is website for learning")
+o/p:hello microdegree is website for learning
+=========================================================================
+
+'in' is in built function check 
+
+email = "abhishek"
+print('k' in email)
+o/p:true
+=============================================================
+string manipulation
+
+mother_tongue = "kannada"
+print(len(mother_tongue))
+------------------------------------------------
+print (mother_tongue.upper()) # . is a built in functions
+ 
+-------------------------------------------
+print (mother_tongue.find("d")) # . find is also a built in function 
+
+---------------------------------
+print (mother_tongue.replace("kannada","karnataka"))  #  .replace is also a built in function to replace a word or character.
+-------------------------------------------------------------------------------------------------------
+
+
+
+few important key notes are:
+.capitalize()
+.count()
+.find()
+.replace()
+index()
+.join()
+.lower()
+.upper()
+.split()
+===================================================================================================================================================
+
+BODMAS rule ---
+/ this performs divison and gives value with fraction
+// this performs divison and gives value without fraction
+% this performs divison and gives value of remainder
+** this performs power operation 
+print(pow(3,2)) # performs the 3power of 2 
+print(max(3,2)) # gives max values 
+=====================================================================================================================================================
